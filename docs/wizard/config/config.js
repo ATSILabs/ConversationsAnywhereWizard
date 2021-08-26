@@ -1,8 +1,8 @@
 export default {
-    clientID: 'e7de8a75-62bb-43eb-9063-38509f8c21af',
+    clientID: '0fc71c75-da94-47fc-a45d-0f1ae9366c0a',
 
     // 'wizardUriBase': 'http://localhost:8080/wizard/',
-    wizardUriBase: 'https://mypurecloud.github.io/purecloud-premium-app/wizard/',
+    wizardUriBase: 'https://github.com/ATSILabs/ConversationsAnywhereWizard/edit/main/docs/wizard/',
 
     // The actual URL of the landing page of your web app.
     // 'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
@@ -19,7 +19,7 @@ export default {
     // NOTE: During initial development please use the default permission 
     //      'integration:examplePremiumApp:view'. Once your premium app is approved,
     //      the unique integration domain will be generated and this must be updated.
-    viewPermission: 'integration:examplePremiumApp:view',
+    viewPermission: 'integration:examplePremiumApp:View',
 
     // Default Values for fail-safe/testing. Shouldn't have to be changed since the app
     // must be able to determine the environment from the query parameter 
